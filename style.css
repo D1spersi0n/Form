@@ -90,3 +90,145 @@ button{
 .space{
     height: 90px;
 }
+/* планшеты горизонтально */
+@media (min-width: 992px) and (max-width: 1199px) {
+ .main{
+    width: 100%;
+ }
+ .name_box{
+    width: 100%;
+}
+.email_box{
+    width: 100%;
+}
+.message_box{
+    width: 100%;
+}
+}
+
+/* планшеты вертикально */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main{
+        width: 100%;
+        display: flex;
+        height: 100%;
+    }
+    .name_box{
+        width: 100%;
+        display: flex;
+    }
+    .email_box{
+        width: 100%;
+        display: flex;
+    }
+    .message_box{
+        width: 100%;
+        display: flex;
+    }
+    .input-element{
+        position: static;
+        margin-left: 5%;
+        width: 30%;
+    }
+    .input-email{
+        position: static;
+        width: 66.5%;
+        margin-left:5%;
+    }
+    .message_subject{
+        position: static;
+        margin-left: 5%;
+        width: 30%;
+    }
+    label{
+        margin-left: 0;
+    }
+    .message{
+        margin-left: 7%;
+        width: 70%;
+    }
+}
+
+/* телефоны горизонтально */
+@media (max-width: 767px) {
+    .main{
+        width: 100%;
+        display: flex;
+    }
+    .name_box{
+        width: 100%;
+        display: flex;
+    }
+    .email_box{
+        width: 100%;
+        display: flex;
+    }
+    .message_box{
+        width: 100%;
+        display: flex;
+    }
+    .input-element{
+        position: static;
+        margin-left: 5%;
+        width: 80%;
+    }
+    .input-email{
+        position: static;
+        width: 100%;
+        margin-left:5%;
+    }
+    .message_subject{
+        position: static;
+        margin-left: 5%;
+        width: 150%;
+    }
+    label{
+        margin-left: 0;
+    }
+    .message{
+        margin-left: 10px;
+        width: 70%;
+    }
+}
+
+/* телефоны вертикально */
+@media (max-width: 480px) {
+    .main{
+        width: 100%;
+        display: flex;
+    }
+    .name_box{
+        width: 100%;
+        display: flex;
+    }
+    .email_box{
+        width: 100%;
+        display: flex;
+    }
+    .message_box{
+        width: 100%;
+        display: flex;
+    }
+    .input-element{
+        position: static;
+        margin-left: 5%;
+        width: 80%;
+    }
+    .input-email{
+        position: static;
+        width: 100%;
+        margin-left:5%;
+    }
+    .message_subject{
+        position: static;
+        margin-left: 5%;
+        width: 150%;
+    }
+    label{
+        margin-left: 0;
+    }
+    .message{
+        margin-left: 10px;
+        width: 70%;
+    }
+}
